@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridGames</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="wrapper" id="blur">
+    <header><h1 align="center">Grid Games</h1></header>
+    <div class="container">
+        <div class="games">
+            <a href="memoryGame/index.html"><div id="one" class="game" style="background-image: url(images/pikachu.jpg);">memory game</div></a>
+            <a href="connectFour/index.html"><div id="two" class="game" style="background-image: url(images/block2.jpg);">connect four</div></a>
+            <a href="spaceInvaders/index.html"><div id="three" class="game" style="background-image: url(images/alien.jpg);">space invader</div></a>
+            <a href="snakeGame/index.html"><div id="four" class="game" style="background-image: url(images/snake2.jpg);">snake game</div></a>
+            <a href="whackAMole/index.html"><div id="five" class="game" style="background-image: url(images/mole.jpg);">whack a mole</div></a>
+            <a href="frogger/index.html"><div id="six" class="game" style="background-image: url(images/frog.jpg);">frogger</div></a>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    var game = document.querySelectorAll('.game');
+    /*game.forEach((block, i) =>{
+        console.log('inside for each')
+        block.addEventListener('mouseover', ()=>{
+            console.log("inside toggle");
+        var body = document.querySelector("#blur")
+        body.classList.toggle('active')
+        id = block.id
+        ids = document.querySelector(`#${id}`);
+        console.log(ids);
+        ids.classList.toggle('active');
+
+        })
+    })*/
+</script>
+</html>

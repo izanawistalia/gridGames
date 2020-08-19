@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(360deg,green, rgb(30, 141, 30),rgb(85, 148, 85),rgb(110, 146, 110),rgb(128, 150, 128));
+}
+
+button{
+    background-color: aquamarine;
+    padding: 5px;  
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+.home{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+.start{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+}
+
+.river{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+.al2, .al3, .al4, .al6, .al7, .al8, .bl1, .bl2, .bl4, .bl5, .bl8, .bl9{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+}
+.road{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(68, 64, 64);
+}
+.db2, .db4, .db6, .db8, .ub2, .ub4, .ub6, .ub8{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+}
+.frog{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}

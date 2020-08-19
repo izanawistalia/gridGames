@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    background: linear-gradient(360deg,green, rgb(30, 141, 30),rgb(85, 148, 85),rgb(110, 146, 110),rgb(128, 150, 128));
+}
+.wrapper{
+    margin: 20px;
+}
+.wrapper h1, .wrapper h3{
+    margin: 10px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}

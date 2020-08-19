@@ -1,0 +1,53 @@
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button{
+    font-size: 1rem;
+    box-shadow: rgb(117, 113, 113) 2px 2px 2px;
+}
+
+.grid{
+    height: 400px;
+    width: 200px;
+    background-color: yellow;
+    border: 1px solid rgb(204, 204, 16);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+}
+
+.demo{
+    height: 80px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid rgb(120, 177, 158);
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.demo div{
+    height: 20px;
+    width: 20px;
+}
+
+.set{
+    background-color: rgb(155, 93, 214);
+}
+.base{
+    background-color: green;
+}

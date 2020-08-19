@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(360deg,green, rgb(30, 141, 30),rgb(85, 148, 85),rgb(110, 146, 110),rgb(128, 150, 128));
+}
+.square{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: blue;
+}
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618;
+}
+.mole{
+    background-image: url('mole.png');
+    background-size: cover;
+}

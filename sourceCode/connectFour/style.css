@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(255,255,255,0.8)), url('block1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: aliceblue;
+}
+
+.grid{display: flex;
+    flex-flow: row wrap;
+    border: solid 2px black;
+    height: 245px;
+    width: 290px;
+}
+.grid div{
+    height: 40px;
+    width: 40px;
+    /*border: dotted 0.5px rgb(226, 216, 216);*/
+}
+.player1{
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 7px;
+}
+.player2{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 7px;
+}
+h3 span div{
+    height: 30px;
+    width: 40px;
+}
